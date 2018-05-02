@@ -1,0 +1,56 @@
+{
+  "users" : [
+    {
+    	"username"	: "user1",
+    	"amount"	: 420,
+    	"region"	: "Budapest, Hungary",
+      "rank"    : 1
+    },
+    {
+    	"username"	: "user2",
+    	"amount"	: 321,
+    	"region"	: "Budapest, Hungary",
+      "rank"    : 2
+    },
+    {
+    	"username"	: "user3",
+    	"amount"	: 320,
+    	"region"	: "Budapest, Hungary",
+      "rank"    : 3
+    },{
+    	"username"	: "user4",
+    	"amount"	: 220,
+    	"region"	: "Budapest, Hungary",
+      "rank"    : 4
+    },
+    {
+    	"username"	: "user5",
+    	"amount"	: 200,
+    	"region"	: "Budapest, Hungary",
+      "rank"    : 5
+    },
+    {
+    	"username"	: "user6",
+    	"amount"	: 190,
+    	"region"	: "Budapest, Hungary",
+      "rank"    : 6
+    },{
+    	"username"	: "user7",
+    	"amount"	: 175,
+    	"region"	: "Budapest, Hungary",
+      "rank"    : 7
+    },
+    {
+    	"username"	: "user8",
+    	"amount"	: 150,
+    	"region"	: "Budapest, Hungary",
+      "rank"    : 8
+    },
+    {
+    	"username"	: "user9",
+    	"amount"	: 120,
+    	"region"	: "Budapest, Hungary",
+      "rank"    : 9
+    }
+  ]
+}

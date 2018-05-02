@@ -1,0 +1,43 @@
+{
+  "bets" : [
+  	{
+  		"username"	: "pali.nap",
+  		"match" 	: {
+  			"match_id" 	: "abeef234eeaddefc",
+  			"home"		: "Hungary",
+  			"away"		: "India",
+  			"date"		: "2018-04-27T03:24:00",
+  			"odds"		: { "home" : 94.0, "away" : 46.0, "draw": 23.0},
+  			"results"	: { "home" : 0, "away" : 5 }
+  		},
+  		"team"		: "Hungary",
+  		"amount"	: 3500
+  	},
+    {
+  		"username"	: "user2",
+  		"match" 	: {
+  			"match_id" 	: "abeef234eefghjefc",
+  			"home"		: "England",
+  			"away"		: "French",
+  			"date"		: "2018-04-27T03:24:00",
+  			"odds"		: { "home" : 94.0, "away" : 46.0, "draw": 23.0},
+  			"results"	: { "home" : 0, "away" : 5 }
+  		},
+  		"team"		: "England",
+  		"amount"	: 560
+  	},
+    {
+  		"username"	: "user3",
+  		"match" 	: {
+  			"match_id" 	: "ab24f234eeajuefc",
+  			"home"		: "Spain",
+  			"away"		: "Italy",
+  			"date"		: "2018-04-27T03:24:00",
+  			"odds"		: { "home" : 94.0, "away" : 46.0, "draw": 23.0},
+  			"results"	: { "home" : 0, "away" : 5 }
+  		},
+  		"team"		: "Hungary",
+  		"amount"	: 125
+  	}
+  ]
+}
