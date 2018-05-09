@@ -11,18 +11,16 @@ class OddsHelper extends React.Component {
         </thead>
         <tbody>
           <tr>
-            <th scope="row">1</th>
-            <td>{this.props.match.home}</td>
+            <th scope="row">{this.props.match.home}</th>
+
             <td>{this.props.match.odds.home}</td>
           </tr>
           <tr>
-            <th scope="row">2</th>
-            <td>{this.props.match.away}</td>
+            <th scope="row">{this.props.match.away}</th>
             <td>{this.props.match.odds.away}</td>
           </tr>
           <tr>
-            <th scope="row">3</th>
-            <td>Draw</td>
+            <th scope="row">Draw</th>
             <td>{this.props.match.odds.draw}</td>
           </tr>
         </tbody>

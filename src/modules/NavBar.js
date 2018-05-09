@@ -4,7 +4,7 @@ import logo from '../resources/pictures/300x90.png';
 import UserInfo from './UserInfo.js'
 
 class NavBar extends React.Component {
-  
+
   render() {
     return (
       <div className="">
@@ -13,7 +13,6 @@ class NavBar extends React.Component {
             <span className="navbar-toggler-icon"></span>
           </button>
           <a className="navbar-brand" href="#">Navbar</a>
-
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item active">
@@ -26,7 +25,7 @@ class NavBar extends React.Component {
                 <a className="nav-link disabled" href="#">Disabled</a>
               </li>
             </ul>
-            <UserInfo />
+            <UserInfo user={this.props.user}/>
           </div>
         </nav>
       </div>

@@ -10,7 +10,7 @@ class UserInfo extends React.Component {
             Your Ballance:
           </div>
           <div className="bg-dark text-white rounded">
-            500
+            {this.props.user.amount}
           </div>
         </div>
         <div className="col-3">
@@ -21,7 +21,7 @@ class UserInfo extends React.Component {
             Welcome
           </div>
           <div>
-            <h3>Norbert</h3>
+            <h3>{this.props.user.username}</h3>
           </div>
         </div>
       </div>
