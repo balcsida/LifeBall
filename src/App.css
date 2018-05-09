@@ -1,4 +1,7 @@
-
+@font-face {
+  font-family: 'Dusha V5';
+  src: url('./resources/Dusha.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
 .App {
   text-align: center;
 }
@@ -13,7 +16,12 @@
   height: auto;
   color: white;
 }
-
+.bg-grad {
+  background: -moz-linear-gradient(left, #081f3b 1%, #7ab3e2 100%, #2989d8 100%, #207cca 100%, #7db9e8 100%, #2989d8 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #081f3b 1%,#7ab3e2 100%,#2989d8 100%,#207cca 100%,#7db9e8 100%,#2989d8 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #081f3b 1%,#7ab3e2 100%,#2989d8 100%,#207cca 100%,#7db9e8 100%,#2989d8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#081f3b', endColorstr='#2989d8',GradientType=1 );
+}
 .App-title {
   font-size: 1.5em;
 }
@@ -83,6 +91,21 @@
 }
 .shadow {
   box-shadow: -2px 3px 3px 2px #d3d3d3;
+}
+.navbar .nav-item .nav-link{
+  color: #fff;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  font-family: 'Dusha V5', Georgia, sherif !important;
+}
+.navbar .nav-item .nav-link.active {
+  color:#4ec0db;
+}
+.navbar .nav-item .nav-link:hover{
+  color: #7ab3e2;
+}
+.navbar .nav-item .nav-link:active {
+  color:#4ec0db;
 }
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
